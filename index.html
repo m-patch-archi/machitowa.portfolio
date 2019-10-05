@@ -1,0 +1,262 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>まっち patch archi</title>
+    <link rel="stylesheet" href="homepage-main.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- jQuery.jsの読み込み -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class ="container">
+        <div id ="header-center">
+          <a href="file:///Users/User/Desktop/html%20ccs/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%98%E3%82%9A%E3%83%BC%E3%82%B7%E3%82%99.html" class="link-homepage">
+            <img src ="pics/アイコン.png" alt="homepage" style="height:50px;">
+          </a>
+        </div>
+        <div id ="header-under">
+          <ul>
+            <li>
+              <a href="#profile" class="profile">profile</a>
+            </li>
+            <li>
+              <a href="#projects" class="projects">projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script>
+          $(function(){
+          // #で始まるアンカーをクリックした場合に処理
+          $('a[href^=#profile]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+            // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+          });
+        });
+      </script>
+      <script>
+          $(function(){
+          // #で始まるアンカーをクリックした場合に処理
+          $('a[href^=#projects]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+            // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+          });
+        });
+      </script>
+      <script>
+          $(function(){
+          // #で始まるアンカーをクリックした場合に処理
+          $('a[href^=#contact]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+            // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+          });
+        });
+      </script>
+    </header>
+    <div id="main">
+      <div class ="container">
+      <!-- プロジェクトの画像 -->
+      <div id="top-wrapper">
+        <div class="image-screen">
+          <img src="pics/5.png">
+        </div>
+      </div>
+      <div id="massage-wrapper">
+        <ul>
+          <li>まちの中にある小さな使われない空間</li>
+          <li>それを埋め合わせていき大きなまちの価値を作っていく</li>
+          <li>あああああああああああああああああああああああああああああ</li>
+          <li>あああああああああああああああああああああああああああああ</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    <section id="profile" class="profile">
+        <h2>PROFILE</h2>
+      <div class="profile-content">
+          <div class="profile-n">
+            <div class="profile-image">
+              <img src="pics/nisi.jpg">
+            </div>
+            <h1>西 昭太郎</h1>
+            <p>Shotaro Nisi</p>
+            <ul>
+              <li>1994  &nbsp;&nbsp;&nbsp;&nbsp;熊本県生まれ</li>
+              <li>2018  &nbsp;&nbsp;&nbsp;&nbsp;首都大学東京(都立大学)都市環境学部卒業建築都市コース 卒業</li>
+              <li>2019  &nbsp;&nbsp;&nbsp;&nbsp;首都大学東京大学院(都立大学院) 在学</li>
+              <li>2019  &nbsp;&nbsp;&nbsp;&nbsp;まっち patch archi 共同主宰</li>
+            </ul>
+          </div>
+          <div class="profile-t">
+            <div class="profile-image">
+              <img src="pics/nisi.jpg">
+            </div>
+            <h1>遠山 正一郎</h1>
+            <p>Shoichiro Toyama</p>
+            <ul>
+              <li>1995  &nbsp;&nbsp;&nbsp;&nbsp;茨城県生まれ</li>
+              <li>2018  &nbsp;&nbsp;&nbsp;&nbsp;首都大学東京(都立大学)都市環境学部卒業建築都市コース 卒業</li>
+              <li>2019  &nbsp;&nbsp;&nbsp;&nbsp;首都大学東京大学院(都立大学院)都市環境科学研究科建築学域 在学</li>
+              <li>2019  &nbsp;&nbsp;&nbsp;&nbsp;まっち patch archi 共同主宰</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2>PROJECTS</h2>
+      <div class="projects-content">
+          <div class="project-images">
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/1.png">
+                <div class="image-text">
+                  <a href="file:///Users/User/Desktop/html%20ccs/%E3%82%A2%E3%82%B5%E3%83%92%E3%82%AF%E3%82%99%E3%83%AD%E3%83%BC%E3%83%8F%E3%82%99%E3%83%AB.html">
+                    <p>ASAHI GLOVAL</br>COMPETITION 2018</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/2.png">
+                <div class="image-text">
+                  <a href="file:///Users/User/Desktop/html%20ccs/ENEMANEHOUSE.html">
+                    <p>ENEMANEHOUSE 2017</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/3.png">
+                <div class="image-text">
+                  <p>HULIC</br>COMPETITION 2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/4.png">
+                <div class="image-text">
+                  <p>HULIC</br>COMPETITION 2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/1.png">
+                <div class="image-text">
+                  <p>ASAHI GLOVAL</br>COMPETITION 2018</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/1.png">
+                <div class="image-text">
+                  <p>ASAHI GLOVAL</br>COMPETITION 2018</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/1.png">
+                <div class="image-text">
+                  <p>ASAHI GLOVAL</br>COMPETITION 2018</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/1.png">
+                <div class="image-text">
+                  <p>ASAHI GLOVAL</br>COMPETITION 2018</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <div class="image">
+                <img src="pics/1.png">
+                <div class="image-text">
+                  <p>ASAHI GLOVAL</br>COMPETITION 2018</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <div id ="contact">
+      <div id="footer-icon">
+        <div class="text">
+        <h2>CONTACT</h2>
+        </div>
+        <div class="texts">
+        </div>
+        <div class="icon">
+          <ul>
+            <li>
+              <a href="mailto:@gmail.com" class="btn-social-icon-mail">
+                <span class="btn-social-icon-mail__square"><i class="far fa-envelope"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn-social-icon-twitter">
+                <span class="btn-social-icon-twitter__square"><i class="fab fa-twitter"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn-social-icon-facebook">
+                <span class="btn-social-icon-facebook__square"><i class="fab fa-facebook-f"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/yellow_line06/" class="btn-social-icon-instagram">
+                <span class="btn-social-icon-instagram__square"><i class="fab fa-instagram"></i></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>© 2019 まっち patch archi ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+    </footer>
+
+
+
+  </body>
+</html>
