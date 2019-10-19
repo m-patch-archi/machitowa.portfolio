@@ -15,6 +15,7 @@ a:visited {
 }
 
 .container {
+  max-width: 1170px;
   padding: 0 0px;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -51,7 +52,9 @@ header {
   padding: 0 0 0 50px;
 }
 
-
+#header-under {
+  float: right;
+}
 
 #header-under ul {
   float: right;
@@ -61,21 +64,13 @@ header {
 #header-under li {
   font-size: 15px;
   font-family: "M+ 1c" ;
-}
-
-.profile {
   padding: 0 50px;
 }
 
-.projects {
-  padding: 0 50px;
+main {
+  max-width: 1170px;
+  width: 100%;
 }
-
-.contact {
-  padding: 0 50px;
-}
-
-
 
 #top-wrapper{
   text-align: center;
@@ -90,14 +85,7 @@ header {
   text-align: center;
 }
 
-/*
-hr {
-  color: #c9c9c9;
-  margin: 50px 0;
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-}*/
+
 
 #massage-wrapper  {
   text-align: center;
@@ -120,7 +108,10 @@ hr {
 }
 
 #profile {
+  padding:0 10px;
   margin: 0 0 50 0;
+  max-width: 1170px;
+  width: 100%;
 }
 
 
@@ -138,34 +129,30 @@ hr {
     padding: 2 0 2 0;
 }
 
-.profile-image{
-  float: left;
-}
+
 
 .profile-image img{
   float: left;
-  height: 150px;
-  width: 150px;
-  margin:0 100px 0 -100px;
+  height: 140px;
+  width: 140px;
   object-fit: cover;
+  margin: 0 100px 0 200px;
 }
 
 .profile-n {
   margin-top: 20px;
-  margin-left: 200px;
 }
 
 .profile-n h1 {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  height: 30px;
   font-weight:lighter;
   font-size: 24px;
 }
 
 .profile-n p {
   margin: 0px;
-  padding: 0 0 10px 0;
+  margin: -5px 0 5px 0;
   font-weight:lighter;
   font-size: 10px;
   letter-spacing: 3px;
@@ -176,22 +163,18 @@ hr {
   padding: 0px;
 }
 
-.profile-t {
- margin-left: 200px;
 
-}
 
 .profile-t h1 {
   margin-bottom:0px;
   padding-bottom: 0px;
-  height: 30px;
   font-weight: lighter;
   font-size: 24px;
 }
 
 .profile-t p {
   margin: 0px;
-  padding: 0 0 10px 0;
+  margin: -5px 0 5px 0;
   font-weight:lighter;
   font-size: 10px;
   letter-spacing: 3px;
@@ -202,7 +185,10 @@ hr {
   padding: 0px;
 }
 
-
+#projects {
+  max-width: 1170px;
+  width: 100%;
+}
 
 #projects h2 {
   text-align: center;
@@ -219,7 +205,7 @@ hr {
 
 .project-image {
   float: left;
-  width: 25%;
+  width: 20%;
   object-fit: cover;
 }
 
@@ -230,11 +216,7 @@ hr {
   object-fit: cover;
 }
 
-/*
-[src$="pics/3.png"] {
-  height: 230px;
-  object-fit: cover;
-}*/
+
 
 .image p:hover{
 opacity: 1;
@@ -242,7 +224,7 @@ opacity: 1;
 
 .image img {
   display: block;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
   width: 100%;
   overflow: hidden;
@@ -289,11 +271,7 @@ footer .container {
 }
 
 
-footer li {
-  list-style: none;
-  display: inline;
-  font-weight:lighter;
-}
+
 
 .icon {
   height: auto;
@@ -308,6 +286,9 @@ footer li {
 
 #footer-icon li {
   margin:0 50px;
+  list-style: none;
+  display: inline;
+  font-weight:lighter;
 }
 
 .icon ul {
