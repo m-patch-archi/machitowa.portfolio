@@ -1,13 +1,114 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
+
+  .profile-n-container {
+    text-align: left;
   }
 
 
+  .profile-t-container {
+    text-align: left;
+  }
+
+
+  .project-image {
+    float: left;
+    width: 25%;
+    object-fit: cover;
+  }
+
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  .lesson {
+  #header-under  {
+    display:none;
+  }
+
+  #massage-wrapper ul {
+    text-align: center;
+    font-size: 6px;
+    margin: 0;
+    padding: 40px 0 0 0;
+  }
+
+
+  .profile-image img{
+    float: left;
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin: 0 100px 0 100px;
+  }
+
+
+
+  .profile-n-container {
+    text-align: left;
+    display: inline-block;
+    margin-left:50px;
+  }
+
+  .profile-t-container {
+    text-align: left;
+    display: inline-block;
+    margin-left:50px;
+  }
+
+
+  .profile-n h1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight:lighter;
+    font-size: 12px;
+  }
+
+  .profile-n p {
+    margin: 0px;
+    margin: -5px 0 5px 0;
+    font-weight:lighter;
+    font-size: 5px;
+    letter-spacing: 3px;
+  }
+
+  .profile-n ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+.profile-t {
+  margin-top: 50px;
+}
+
+
+  .profile-t h1 {
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+
+  .profile-t p {
+    margin: 0px;
+    margin: -5px 0 5px 0;
+    font-weight:lighter;
+    font-size: 5px;
+    letter-spacing: 3px;
+  }
+
+  .profile-t ul {
+    margin: 0 0 50px 0;
+    padding: 0px;
+  }
+
+  .profile-content li {
+      list-style: none;
+      font-weight:lighter;
+      font-size: 6px;
+      padding: 2 0 2 0;
+  }
+
+  .project-image {
+    float: left;
     width: 100%;
+    object-fit: cover;
   }
