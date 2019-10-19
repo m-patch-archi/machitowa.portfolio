@@ -31,10 +31,11 @@
           </ul>
         </div>
       </div>
-      <script>
-          j$(function(){
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script type="text/javascript">
+          $(function(){
           // #で始まるアンカーをクリックした場合に処理
-          j$('a[href^=#profile]').click(function() {
+          $('a[href^=#profile]').click(function() {
           // スクロールの速度
           var speed = 400; // ミリ秒
             // アンカーの値取得
@@ -44,12 +45,13 @@
           // 移動先を数値で取得
           var position = target.offset().top;
           // スムーススクロール
-          j$('body,html').animate({scrollTop:position}, speed, 'swing');
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
           return false;
           });
         });
       </script>
-      <script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script type="text/javascript">
           $(function(){
           // #で始まるアンカーをクリックした場合に処理
           $('a[href^=#projects]').click(function() {
@@ -67,7 +69,8 @@
           });
         });
       </script>
-      <script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script type="text/javascript">
           $(function(){
           // #で始まるアンカーをクリックした場合に処理
           $('a[href^=#contact]').click(function() {
