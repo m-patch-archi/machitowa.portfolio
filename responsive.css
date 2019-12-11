@@ -19,8 +19,12 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  #header-under  {
-    display:none;
+
+
+  #header-under li {
+    font-size: 15px;
+    font-family: "M+ 1c" ;
+    padding: 0 20px;
   }
 
   #massage-wrapper ul {
@@ -30,6 +34,12 @@
     padding: 40px 0 0 0;
   }
 
+  #massage-wrapper  {
+    text-align: center;
+    background-color: #e8eaec;
+    height: 150px;
+    margin: 0 0 30px 0 ;
+  }
 
   .profile-image img{
     float: left;
@@ -60,6 +70,9 @@
     font-weight:lighter;
     font-size: 12px;
   }
+  .profile-n {
+    text-align: center;
+  }
 
   .profile-n p {
     margin: 0px;
@@ -77,6 +90,7 @@
 
 .profile-t {
   margin-top: 50px;
+  text-align: center;
 }
 
 
@@ -111,4 +125,93 @@
     float: left;
     width: 100%;
     object-fit: cover;
+  }
+
+  .image img {
+    height: 100%;
+    object-fit: cover;
+    width: 200px;
+    overflow: hidden;
+  }
+
+  .image p {
+    top: 0;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    color: white;
+    opacity: 1;
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #footer-icon li {
+    margin:0 5px;
+    list-style: none;
+    display: inline;
+    font-weight:lighter;
+  }
+
+  .btn-social-icon-mail__square {
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 50px;
+    border: solid 1px black;
+  }
+
+  .btn-social-icon-mail__square i {
+    line-height: 40px;
+  }
+
+  .btn-social-icon-twitter__square {
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 50px;
+    border: solid 1px black;
+  }
+
+  .btn-social-icon-twitter__square i {
+    line-height: 40px;
+  }
+
+  .btn-social-icon-facebook__square {
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 50px;
+    border: solid 1px black;
+  }
+
+  .btn-social-icon-facebook__square i {
+    line-height: 40px;
+  }
+
+  .btn-social-icon-instagram__square {
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 50px;
+    border: solid 1px black;
+  }
+
+  .btn-social-icon-instagram__square i {
+    line-height: 40px;
   }
