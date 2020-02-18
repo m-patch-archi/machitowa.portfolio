@@ -1,6 +1,13 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
 
+  #header-center {
+    float: left;
+    width: 100px;
+    padding: 0 0 0 50px;
+  }
+
+
   .profile-n-container {
     text-align: left;
   }
@@ -19,6 +26,14 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
+
+
+  #header-center {
+    float: left;
+    width: 100px;
+    padding: 0 0 0 50px;
+  }
+
 
 
   #header-under li {
