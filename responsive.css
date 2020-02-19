@@ -37,7 +37,7 @@
 
 
   #header-under li {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "M+ 1c" ;
     padding: 0 20px;
   }
@@ -69,7 +69,6 @@
   .profile-n-container {
     text-align: left;
     display: inline-block;
-    margin-left:50px;
   }
 
   .profile-t-container {
