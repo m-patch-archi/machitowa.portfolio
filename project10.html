@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>まっち patch archi</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- jQuery.jsの読み込み -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class ="container">
+        <div id ="header-center">
+          <a href="https://m-patch-archi.github.io" class="link-homepage">
+            <img src ="pics/アイコン.png" alt="homepage" style="height:50px;">
+          </a>
+        </div>
+        <div id ="header-under">
+          <ul>
+            <li>
+              <a href="https://m-patch-archi.github.io#profile" class="profile">profile</a>
+            </li>
+            <li>
+              <a href="https://m-patch-archi.github.io#projects" class="projects">projects</a>
+            </li>
+            <li>
+              <a href="https://m-patch-archi.github.io#contact" class="contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script>
+          $(function(){
+          // #で始まるアンカーをクリックした場合に処理
+          $('a[href^=#profile]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+            // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+          });
+        });
+      </script>
+      <script>
+          $(function(){
+          // #で始まるアンカーをクリックした場合に処理
+          $('a[href^=#projects]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+            // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+          });
+        });
+      </script>
+      <script>
+          $(function(){
+          // #で始まるアンカーをクリックした場合に処理
+          $('a[href^=#contact]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒
+            // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+          });
+        });
+      </script>
+    </header>
+
+
+
+    <div id="main">
+      <div class="content-container">
+
+
+      <section class="project">
+
+        <div class="project_info">
+          <h1>URBAN PUBLIC SPAVE DESIGN COMPETITION 2019</h1>
+          <p class="project_body"><br><br>公や私、個人と社会といった相互関係・相互作用<br><br>帰属や所有の概念も含めた社会構造そのものが大きく変わろうとしてく中で<br><br>
+            わたしたちが生きる「20XX年」のパブリックスペースを創作するコンペディション。<br><br><br><br>
+            20XX年の都市のパブリックスペースは<br><br>
+            クラウド化したコミュニティが実空間として現れることを想定し<br><br>
+            そのような空間が祝祭性と刹那性という性質を持つサーカス空間として読み替えた。<br><br>
+            クラウド化したコミュニティのように都市の中で現れては消えてを繰り返しながら都市空間に新たな意味を生み出す。<br><br></p>
+        <!--  <p class="project_partner"><br><br>『パノラマワイド版　音楽・表現と鑑賞の資料』<br><br>編集：株式会社 正進社</p> -->
+        </div>
+
+        <div class="project_images">
+
+          <div class="project_image1">
+            <div class="project_image">
+              <img src="pics/10.png" alt="">
+            </div>
+          </div>
+
+          <div class="project_image2">
+            <div class="project_image">
+              <img src="pics/ピエロ/2.png" alt="">
+            </div>
+          </div>
+
+          <div class="project_image3">
+            <div class="project_image">
+              <img src="pics/ピエロ/3.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+
+
+      </section>
+
+
+        </div>
+      </div>
+    <footer>
+
+      <div class="copy-right">
+        <p>© 2019 まっち patch archi ALL RIGHTS RESERVED.</p>
+      </div>
+
+    </footer>
+
+
+
+  </body>
+</html>
