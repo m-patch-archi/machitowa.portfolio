@@ -137,6 +137,10 @@ main {
   margin: 0 100px 0 200px;
 }
 
+.profile-t img{
+  object-position: 0% 20%;
+}
+
 .profile-n {
   margin-top: 20px;
 }
