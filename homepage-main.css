@@ -272,8 +272,9 @@ footer .container {
 
 
 
-#footer-icon {
+.footer-icon image {
   text-align: center;
+  margin:0 auto;
 }
 
 
