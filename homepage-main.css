@@ -270,7 +270,9 @@ transition: all 2s ease;
 
 
 
-.footer-icon icon {
+#footer-icon icon {
+  width:50%;
+  height:50%;
   text-align: center;
   margin:0 auto;
 }
